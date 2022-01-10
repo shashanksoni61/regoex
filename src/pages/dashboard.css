@@ -1,0 +1,109 @@
+.card-heading {
+  padding: 3.65vh 2vw 0;
+}
+.font-h3 {
+  font-size: 1.052em !important;
+  color: #1a488e99;
+}
+.font-h6 {
+  font-size: 0.626em;
+  color: #1a488e66;
+}
+.card-body {
+  padding: 0 !important;
+}
+.card-content {
+  height: 40%;
+}
+.balance {
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 8vh;
+  text-align: center;
+  width: 100%;
+}
+
+.balance .row {
+  text-align: center !important;
+}
+.font-h1 {
+  font-size: 1.45em !important;
+}
+.font-h4 {
+  font-size: 0.921em !important;
+}
+.color-awe {
+  color: #3c81a3;
+}
+
+.text-bold {
+  font-weight: 700 !important;
+}
+.coin-selector-body {
+  width: 100%;
+  height: 9vh;
+}
+
+.left-button {
+  display: inline-block;
+  width: 2vw;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+  border: none;
+  background: 0 0;
+}
+
+.wrapper-container {
+  display: inline-flex;
+  width: calc(100% - 4vw);
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  scrollbar-width: none;
+}
+
+.coin-select-wrapper {
+  white-space: nowrap;
+  display: inline-block;
+
+  transition: transform 0.2s ease-in-out;
+}
+.coin-select-container {
+  display: inline-block;
+  height: 100%;
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+}
+.coin-select-btn,
+.coin-select-btn span {
+  vertical-align: middle;
+}
+.coin-select-btn {
+  height: 48%;
+  width: 5.2vw;
+  color: #092147;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 2px solid transparent;
+  box-shadow: 0 8px 16px #1a488e14;
+  padding: 0;
+  margin: 0 0.5vw;
+  line-height: 1vw;
+  display: inline-block;
+}
+.coin-holder.small {
+  width: 1.181vw;
+  height: 1.181vw;
+  margin-right: 0.5vw;
+}

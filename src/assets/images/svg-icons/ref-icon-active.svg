@@ -1,0 +1,30 @@
+<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <g data-name="Group 5724" id="Group_5724" transform="translate(-662 170)">
+    <rect data-name="Rectangle 1822" fill="none" height="24" id="Rectangle_1822" transform="translate(662 -170)" width="24"/>
+    <g data-name="Group 5722" id="Group_5722" transform="translate(-1.349 -1.643)">
+      <rect data-name="Rectangle 1820" fill="none" height="22" id="Rectangle_1820" transform="translate(664.349 -167.357)" width="22"/>
+      <g data-name="Group 5720" id="Group_5720" transform="translate(664.5 -165.752)">
+        <g data-name="Group 5718" id="Group_5718" transform="translate(0)">
+          <g data-name="Ellipse 9717" fill="none" id="Ellipse_9717" stroke="#1a488e" stroke-width="1.5" transform="translate(3.167 2.981)">
+            <circle cx="7.825" cy="7.825" r="7.825" stroke="none"/>
+            <circle cx="7.825" cy="7.825" fill="none" r="7.075"/>
+          </g>
+          <g data-name="Ellipse 9718" fill="#fff" id="Ellipse_9718" stroke="#1a488e" stroke-width="1.5" transform="translate(8.011 0)">
+            <circle cx="2.981" cy="2.981" r="2.981" stroke="none"/>
+            <circle cx="2.981" cy="2.981" fill="none" r="2.231"/>
+          </g>
+          <g data-name="Group 5717" id="Group_5717" transform="translate(0 10.647)">
+            <g data-name="Ellipse 9724" fill="#fff" id="Ellipse_9724" stroke="#1a488e" stroke-width="1.5" transform="translate(5.163 0) rotate(60)">
+              <circle cx="2.981" cy="2.981" r="2.981" stroke="none"/>
+              <circle cx="2.981" cy="2.981" fill="none" r="2.231"/>
+            </g>
+            <g data-name="Ellipse 9724" fill="#fff" id="Ellipse_9724-2" stroke="#1a488e" stroke-width="1.5" transform="translate(21.698 2.981) rotate(120)">
+              <circle cx="2.981" cy="2.981" r="2.981" stroke="none"/>
+              <circle cx="2.981" cy="2.981" fill="none" r="2.231"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

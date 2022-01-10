@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="bal" transform="translate(-1515 -471)">
+    <rect id="Rectangle_3266" data-name="Rectangle 3266" width="32" height="32" transform="translate(1515 471)" fill="none"/>
+    <circle id="Ellipse_7516" data-name="Ellipse 7516" cx="11" cy="11" r="11" transform="translate(1520 476)" fill="#fff"/>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1521 477)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+        <path id="SVGID" d="M10,0A10,10,0,1,1,0,10,10,10,0,0,1,10,0Z" fill="#1e1e1e" fill-rule="evenodd"/>
+        <path id="SVGID-2" data-name="SVGID" d="M223.79,520.84c-3.2,0-5.79-.924-5.79-2.162,0-.646.706-1.228,1.836-1.638a7.934,7.934,0,0,0,4.04.856,8.021,8.021,0,0,0,3.976-.9c1.066.406,1.728.972,1.728,1.6C229.58,519.836,226.988,520.84,223.79,520.84Z" transform="translate(-213.64 -506.66)" fill="#fff"/>
+        <path id="SVGID-3" data-name="SVGID" d="M294.09,401.194c-2.424,0-4.39-.76-4.39-1.7,0-.52.606-.986,1.556-1.3a7.214,7.214,0,0,0,5.668,0c.952.312,1.556.776,1.556,1.3C298.482,400.434,296.516,401.194,294.09,401.194Z" transform="translate(-283.906 -390.236)" fill="#fff"/>
+        <path id="SVGID-4" data-name="SVGID" d="M342.094,275.9c-1.874,0-3.394-.628-3.394-1.4s1.52-1.4,3.394-1.4,3.394.628,3.394,1.4S343.968,275.9,342.094,275.9Z" transform="translate(-331.926 -267.638)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
