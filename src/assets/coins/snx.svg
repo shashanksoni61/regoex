@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="2.235" y1="0.311" x2="2.235" y2="-0.042" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#090220"/>
+      <stop offset="1" stop-color="#170659"/>
+    </linearGradient>
+  </defs>
+  <g id="snx" transform="translate(-649.001 -471)">
+    <rect id="Rectangle_3248" data-name="Rectangle 3248" width="32" height="32" transform="translate(649.001 471)" fill="none"/>
+    <circle id="Ellipse_7519" data-name="Ellipse 7519" cx="11" cy="11" r="11" transform="translate(654.001 476)" fill="#fff"/>
+    <g id="synthetix-network-token-snx-logo" transform="translate(654.875 477)">
+      <g id="Group_6602" data-name="Group 6602" transform="translate(0 0)">
+        <circle id="Ellipse_7393" data-name="Ellipse 7393" cx="10" cy="10" r="10" transform="translate(0.125)" fill="url(#linear-gradient)"/>
+        <g id="Group_6601" data-name="Group 6601" transform="translate(3.625 5.416)">
+          <path id="Path_44355" data-name="Path 44355" d="M37.874,54.083a.421.421,0,0,0-.331-.154H34.872a.089.089,0,0,1-.058-.022.069.069,0,0,1-.022-.05v-1.8a.069.069,0,0,1,.022-.05.068.068,0,0,1,.058-.022h2.822a2.4,2.4,0,0,1,1.844.874l.686.838-1.337,1.629Zm4.934-1.232a2.4,2.4,0,0,1,1.852-.865h2.814a.071.071,0,0,1,.052.017.064.064,0,0,1,.017.055v1.8a.077.077,0,0,1-.017.05.058.058,0,0,1-.052.022H44.8a.421.421,0,0,0-.331.154l-1.968,2.4,1.976,2.412a.419.419,0,0,0,.32.143h2.671a.062.062,0,0,1,.052.022.089.089,0,0,1,.017.058v1.8a.077.077,0,0,1-.017.05.058.058,0,0,1-.052.022H44.66a2.374,2.374,0,0,1-1.844-.874l-1.637-2-1.637,2a2.4,2.4,0,0,1-1.852.874H34.872a.062.062,0,0,1-.052-.022A.076.076,0,0,1,34.8,60.9v-1.8a.077.077,0,0,1,.017-.05.058.058,0,0,1,.052-.022h2.671a.439.439,0,0,0,.331-.154l1.932-2.359Z" transform="translate(-34.792 -51.985)" fill="#00d1ff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

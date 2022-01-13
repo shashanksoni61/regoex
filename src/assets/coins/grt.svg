@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="grt" transform="translate(-745 -471)">
+    <rect id="Rectangle_3250" data-name="Rectangle 3250" width="32" height="32" transform="translate(745 471)" fill="none"/>
+    <g id="the-graph-grt-logo" transform="translate(750.875 477)">
+      <circle id="Ellipse_7394" data-name="Ellipse 7394" cx="10" cy="10" r="10" transform="translate(0.125)" fill="#6747ed"/>
+      <g id="Symbols" transform="translate(5.854 4.625)">
+        <g id="Group_6603" data-name="Group 6603">
+          <path id="Fill-19" d="M120.1,80.867a2.667,2.667,0,1,1,2.667-2.667,2.659,2.659,0,0,1-2.667,2.667m0-6.667a4,4,0,1,1-4,4A4,4,0,0,1,120.1,74.2Zm3.813,8.208a.642.642,0,0,1,0,.938l-2.667,2.667a.663.663,0,0,1-.937-.937l2.667-2.667A.642.642,0,0,1,123.913,82.408Zm1.542-7.542a.667.667,0,1,1-.667-.667A.671.671,0,0,1,125.454,74.867Z" transform="translate(-116.1 -74.2)" fill="#fff" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="comp" transform="translate(-697.001 -471)">
+    <rect id="Rectangle_3249" data-name="Rectangle 3249" width="32" height="32" transform="translate(697.001 471)" fill="none"/>
+    <circle id="Ellipse_7518" data-name="Ellipse 7518" cx="11" cy="11" r="11" transform="translate(702.001 476)" fill="#fff"/>
+    <g id="compound-comp-logo" transform="translate(703 477)">
+      <path id="Path_42804" data-name="Path 42804" d="M10,20A10,10,0,1,0,0,10,10,10,0,0,0,10,20Z" transform="translate(0 0)" fill="#070a0e"/>
+      <path id="Path_42805" data-name="Path 42805" d="M529.982,408.6a1.007,1.007,0,0,1-.482-.858v-1.954a.421.421,0,0,1,.632-.362L534.541,408a.838.838,0,0,1,.417.725v2.024a.5.5,0,0,1-.5.5.51.51,0,0,1-.264-.074Zm6.572-3.709a.842.842,0,0,1,.417.725v4.108a.334.334,0,0,1-.171.292l-.965.543a.169.169,0,0,1-.039.016v-2.281a.841.841,0,0,0-.409-.721l-3.872-2.316v-2.575a.421.421,0,0,1,.632-.362Zm1.93-3.034a.839.839,0,0,1,.418.726v6a.34.34,0,0,1-.177.3l-.915.494V405.2a.841.841,0,0,0-.407-.72l-3.958-2.374V399.66a.432.432,0,0,1,.056-.211.421.421,0,0,1,.574-.152Z" transform="translate(-524.205 -395.248)" fill="#00d395" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="xmr" transform="translate(-15488.05 -7030)">
+    <rect id="Rectangle_3304" data-name="Rectangle 3304" width="32" height="32" transform="translate(15488.05 7030)" fill="none"/>
+    <g id="monero-xmr-logo" transform="translate(15494.051 7036)">
+      <path id="Path_44548" data-name="Path 44548" d="M392,381.749a10,10,0,1,1-10-10A10,10,0,0,1,392,381.749Z" transform="translate(-372 -371.75)" fill="#fff"/>
+      <path id="_149931032" data-name=" 149931032" d="M382.2,371.75a10.009,10.009,0,0,0-9.49,13.156H375.7V376.5l6.5,6.5,6.5-6.5v8.412h2.992a10.008,10.008,0,0,0-9.49-13.155Z" transform="translate(-372.198 -371.75)" fill="#f26822"/>
+      <path id="_149931160" data-name=" 149931160" d="M652.14,2234.306l-2.836-2.836v5.293H645.09a10,10,0,0,0,17.09,0h-4.215v-5.293l-2.836,2.836-1.494,1.494-1.494-1.494h0Z" transform="translate(-643.636 -2221.569)" fill="#4d4d4d"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="eth" transform="translate(-0.227)">
+    <rect id="Rectangle_1708" data-name="Rectangle 1708" width="32" height="32" transform="translate(0.227)" fill="none"/>
+    <g id="ETH-2" data-name="ETH" transform="translate(9.981 6)">
+      <path id="Path_121" data-name="Path 121" d="M7.5,7.453l6.019,3.619L7.5,14.692Z" transform="translate(-1.482 -0.98)" fill="#464a75"/>
+      <path id="Path_122" data-name="Path 122" d="M6.59,7.453.571,11.072l6.019,3.62Z" transform="translate(-0.571 -0.98)" fill="#616990"/>
+      <path id="Path_123" data-name="Path 123" d="M6.59,6.475.571,10.094,6.59,0Z" transform="translate(-0.571 0)" fill="#8891b1"/>
+      <path id="Path_124" data-name="Path 124" d="M7.5,6.474l6.019,3.619L7.5,0Z" transform="translate(-1.482)" fill="#62678f"/>
+      <path id="Path_125" data-name="Path 125" d="M7.5,16.648v5.067l6.019-8.666Z" transform="translate(-1.482 -1.715)" fill="#62678f"/>
+      <path id="Path_126" data-name="Path 126" d="M6.59,16.648l-6.019-3.6L6.59,21.715Z" transform="translate(-0.571 -1.715)" fill="#8a91b1"/>
+    </g>
+  </g>
+</svg>

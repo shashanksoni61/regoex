@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.854" y1="0.146" x2="0.146" y2="0.854" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff2d55"/>
+      <stop offset="1" stop-color="#ffbc5b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a524b3"/>
+      <stop offset="1" stop-color="#ff2d55"/>
+    </linearGradient>
+  </defs>
+  <g id="mana" transform="translate(-1371 -471)">
+    <rect id="Rectangle_3263" data-name="Rectangle 3263" width="32" height="32" transform="translate(1371 471)" fill="none"/>
+    <g id="decentraland-mana-logo" transform="translate(1377.19 477)">
+      <circle id="Ellipse_7388" data-name="Ellipse 7388" cx="10" cy="10" r="10" transform="translate(-0.19)" fill="url(#linear-gradient)"/>
+      <path id="Path_44327" data-name="Path 44327" d="M125.7,0V7.5h6.25Z" transform="translate(-118.615 6.5)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+      <path id="Path_44328" data-name="Path 44328" d="M16.7,137.5h6.25V130Z" transform="translate(-15.865 -123.5)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_44329" data-name="Path 44329" d="M40,320a10.242,10.242,0,0,0,2,2H54a10.242,10.242,0,0,0,2-2Z" transform="translate(-38 -304)" fill="#fc9965" fill-rule="evenodd"/>
+      <path id="Path_44330" data-name="Path 44330" d="M80,360a10,10,0,0,0,12,0Z" transform="translate(-76 -342)" fill="#ff2d55" fill-rule="evenodd"/>
+      <path id="Path_44331" data-name="Path 44331" d="M252.3,0V5.5h4.585Z" transform="translate(-238.885 10.5)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+      <path id="Path_44332" data-name="Path 44332" d="M29.28,280H16.7a9.957,9.957,0,0,0,1.165,2h11.42v-2Z" transform="translate(-15.865 -266)" fill="#ffbc5b" fill-rule="evenodd"/>
+      <path id="Path_44333" data-name="Path 44333" d="M176.7,215.5h4.58V210Z" transform="translate(-167.865 -199.5)" fill="#fff" fill-rule="evenodd"/>
+      <circle id="Ellipse_7389" data-name="Ellipse 7389" cx="2.5" cy="2.5" r="2.5" transform="translate(10.915 4)" fill="#ffc95b"/>
+      <circle id="Ellipse_7390" data-name="Ellipse 7390" cx="1.25" cy="1.25" r="1.25" transform="translate(5.835 2.5)" fill="#ffc95b"/>
+    </g>
+  </g>
+</svg>

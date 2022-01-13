@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="busd" transform="translate(-0.295)">
+    <rect id="Rectangle_1718" data-name="Rectangle 1718" width="32" height="32" transform="translate(0.295)" fill="none"/>
+    <g id="Group_5018" data-name="Group 5018" transform="translate(6.295 6)">
+      <g id="Group_639" data-name="Group 639" transform="translate(0)">
+        <rect id="Rectangle_471" data-name="Rectangle 471" width="3.407" height="3.407" transform="translate(0 10.012) rotate(-45)" fill="#f0b90b"/>
+        <rect id="Rectangle_472" data-name="Rectangle 472" width="8.768" height="3.407" transform="translate(3.812 6.2) rotate(-45)" fill="#f0b90b"/>
+      </g>
+      <rect id="Rectangle_473" data-name="Rectangle 473" width="14.16" height="3.407" transform="translate(3.789 13.801) rotate(-45)" fill="#f0b90b"/>
+      <rect id="Rectangle_474" data-name="Rectangle 474" width="14.16" height="3.407" transform="translate(7.578 17.591) rotate(-45)" fill="#f0b90b"/>
+    </g>
+  </g>
+</svg>

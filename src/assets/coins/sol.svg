@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.907" y1="1.512" x2="0.355" y2="-3.91" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00ffa3"/>
+      <stop offset="1" stop-color="#dc1fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.666" y1="5.175" x2="0.114" y2="-0.247" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.786" y1="3.356" x2="0.234" y2="-2.067" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="sol" transform="translate(-15904.611 -7030)">
+    <rect id="Rectangle_3311" data-name="Rectangle 3311" width="32" height="32" transform="translate(15904.611 7030)" fill="none"/>
+    <g id="solana-sol-logo" transform="translate(15910.611 7038.163)">
+      <path id="Path_44570" data-name="Path 44570" d="M3.229,234.291a.654.654,0,0,1,.463-.191h15.96a.327.327,0,0,1,.231.558l-3.153,3.153a.654.654,0,0,1-.463.191H.308a.327.327,0,0,1-.231-.558Z" transform="translate(0.02 -222.328)" fill="url(#linear-gradient)"/>
+      <path id="Path_44571" data-name="Path 44571" d="M3.229.191A.672.672,0,0,1,3.692,0h15.96a.327.327,0,0,1,.231.558L16.73,3.711a.654.654,0,0,1-.463.191H.308a.327.327,0,0,1-.231-.558Z" transform="translate(0.02)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_44572" data-name="Path 44572" d="M16.73,116.491a.654.654,0,0,0-.463-.191H.308a.327.327,0,0,0-.231.558l3.153,3.153a.654.654,0,0,0,.463.191h15.96a.327.327,0,0,0,.231-.558Z" transform="translate(0.02 -110.452)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>

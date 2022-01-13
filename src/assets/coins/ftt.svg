@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="ftt" transform="translate(-842 -471)">
+    <rect id="Rectangle_3252" data-name="Rectangle 3252" width="32" height="32" transform="translate(842 471)" fill="none"/>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(848.357 478.615)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+        <path id="Path_44336" data-name="Path 44336" d="M565.3,0q6.916,0,13.832,0,0,2.235,0,4.47-6.916,0-13.832,0Q565.294,2.236,565.3,0Z" transform="translate(-559.844 0)" fill="#02a6c2"/>
+        <path id="Path_44337" data-name="Path 44337" d="M.006,637.506q2.231-.012,4.463,0,.012,2.231,0,4.463-2.232.011-4.463,0Q-.006,639.738.006,637.506Z" transform="translate(0 -631.353)" fill="#5fcade"/>
+        <path id="Path_44338" data-name="Path 44338" d="M565.235,637.555q4.992-.011,9.982,0,.011,2.231,0,4.463-4.991.01-9.982,0Q565.225,639.787,565.235,637.555Z" transform="translate(-559.78 -631.403)" fill="#5fcade"/>
+        <path id="Path_44339" data-name="Path 44339" d="M565.071,1274.987q2.227-.024,4.454,0,.023,2.226,0,4.454-2.227.022-4.454,0Q565.048,1277.215,565.071,1274.987Z" transform="translate(-559.611 -1262.681)" fill="#abebf4"/>
+      </g>
+    </g>
+  </g>
+</svg>

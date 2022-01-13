@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" y1="-0.175" x2="1" y2="-0.175" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9d4abe"/>
+      <stop offset="0.03" stop-color="#9055c4"/>
+      <stop offset="0.15" stop-color="#6b74d6"/>
+      <stop offset="0.26" stop-color="#4c8fe5"/>
+      <stop offset="0.39" stop-color="#34a3f0"/>
+      <stop offset="0.52" stop-color="#22b2f9"/>
+      <stop offset="0.66" stop-color="#18bafd"/>
+      <stop offset="0.83" stop-color="#15bdff"/>
+      <stop offset="1" stop-color="#28bad5"/>
+    </linearGradient>
+  </defs>
+  <g id="vet" transform="translate(-15841.257 -7030)">
+    <rect id="Rectangle_3310" data-name="Rectangle 3310" width="32" height="32" transform="translate(15841.257 7030)" fill="none"/>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(15847.257 7036.561)">
+      <g id="Layer_1" data-name="Layer 1">
+        <path id="Path_44575" data-name="Path 44575" d="M8.6,18.03.047.607A.422.422,0,0,1,.425,0H3.389a.426.426,0,0,1,.378.229l6.247,12.64a1.517,1.517,0,0,0,2.725,0L18.965.239A.426.426,0,0,1,19.343.01h.368a.287.287,0,0,1,.259.418l-8.644,17.6a1.518,1.518,0,0,1-2.726,0Z" transform="translate(-0.003)" fill="url(#linear-gradient)"/>
+        <path id="Path_44576" data-name="Path 44576" d="M8.9,19.02,4.062,1.229A.411.411,0,0,0,3.7,1H.73a.424.424,0,0,0-.388.607Z" transform="translate(-0.298 -0.99)" fill="#fff" opacity="0.1" style="isolation: isolate"/>
+        <path id="Path_44577" data-name="Path 44577" d="M10.653,12.878.687.607A.429.429,0,0,1,1.025,0H4.039A.446.446,0,0,1,4.4.229Z" transform="translate(-0.643)" fill="#fff" opacity="0.1" style="isolation: isolate"/>
+      </g>
+    </g>
+  </g>
+</svg>

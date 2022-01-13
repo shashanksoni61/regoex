@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="ltc" transform="translate(-15428.051 -7030)">
+    <rect id="Rectangle_3303" data-name="Rectangle 3303" width="32" height="32" transform="translate(15428.051 7030)" fill="none"/>
+    <g id="litecoin-ltc-logo" transform="translate(15434.051 7036)">
+      <circle id="Ellipse_7532" data-name="Ellipse 7532" cx="8.918" cy="8.918" r="8.918" transform="translate(1.082 1.082)" fill="#fff"/>
+      <path id="Path_44547" data-name="Path 44547" d="M10,0A10,10,0,1,0,20,10h0A9.971,9.971,0,0,0,10.058,0Zm.169,10.339L9.128,13.85H14.7a.281.281,0,0,1,.291.271v.092L14.5,15.884a.361.361,0,0,1-.363.266H5.617l1.429-4.867-1.6.484.363-1.114,1.6-.484,2.01-6.828a.366.366,0,0,1,.363-.266h2.155a.281.281,0,0,1,.291.271v.092L10.533,9.2l1.6-.484-.339,1.162Z" fill="#345d9d"/>
+    </g>
+  </g>
+</svg>
