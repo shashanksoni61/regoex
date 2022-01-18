@@ -196,7 +196,6 @@ button:focus {
   margin-top: 30px;
   width: 100%;
   border-radius: 0 0 10px 10px;
-  z-index: 2;
 }
 
 /* Card 2 */
@@ -237,3 +236,37 @@ button:focus {
   border-radius: "10px";
 }
 /* Card 3 End */
+
+.kyc-progress-widget {
+  display: flex;
+}
+.kyc-active {
+  background: lightgreen !important;
+}
+#app {
+  width: 270px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  margin: 0 20px;
+  position: relative;
+}
+.head {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 1;
+  right: -11px;
+  transform: rotate(45deg);
+}
+
+#app .arrow-tail {
+  background: white;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 1;
+  left: -10px;
+  transform: rotate(45deg);
+}

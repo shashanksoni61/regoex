@@ -1,14 +1,17 @@
-import React, { useState, useCallback } from "react";
-import { Card, Container } from "react-bootstrap";
+import React, { useState } from "react";
+import { Card } from "react-bootstrap";
 import $ from "jquery";
 import Switch from "react-switch";
-import Search from "react-select-search";
+import Modal from "react-modal";
 import "./dashboard.css";
 import { coins, scroll_arrow } from "../assets/coins/coins";
 import img from "../assets/coins/inr.svg";
+import kycIcon from "../assets/images/svg-icons/KYC_s2.svg";
+import docIcon from "../assets/images/svg-icons/id-card.svg";
 
 const Dashboard = () => {
   const [autoRenew, setAutoRenew] = useState(false);
+  const [showModel, setShowModel] = useState(false);
   const [midCoin, setMidCoin] = useState(() => {
     const index = coins.findIndex((item) => item.name === "inr");
     if (index !== -1) return coins[index];
@@ -31,7 +34,13 @@ const Dashboard = () => {
     })
     .filter((item) => item.name !== "inr");
 
-  console.log(coinOptions);
+  const customStyles = {
+    content: {
+      inset: "70px",
+      overflow: "hiddem",
+    },
+  };
+
   const tradeItmeStyle = {
     display: "flex",
     justifyContent: "space-around",
@@ -167,7 +176,10 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-            <button className="btn btn-primary card-action-btn">
+            <button
+              className="btn btn-primary card-action-btn"
+              onClick={() => setShowModel(true)}
+            >
               <span>
                 <span className="v-align-middle d-inline-block ">
                   {midCoin.type === "currency"
@@ -314,6 +326,100 @@ const Dashboard = () => {
           </Card.Body>
         </Card>
       </div>
+      <Modal
+        isOpen={showModel}
+        onRequestClose={() => setShowModel(false)}
+        style={customStyles}
+      >
+        <div>
+          <div class="grid grid-cols-7">
+            <div
+              class="col-span-2"
+              style={{ height: "530px", borderRight: "1px solid lightgray" }}
+            >
+              <div className="flex flex-col items-center justify-center h-full">
+                <img src={kycIcon} height={100} width={100} />
+                <div className="font-h4 color-secondary-dark mt-6 text-center">
+                  Upload an identiy document (Passport, Voter ID, Aadhar Card)
+                  and a copy of your PAN card
+                </div>
+              </div>
+            </div>
+            <div className="col-span-5">
+              <div className="heading px-5 py-4">
+                <div className="font-h4 color-secondary-dark mt-2">
+                  3 Step KYC Process
+                </div>
+                <span className="font-h5 color-secondary-hint mt-3">
+                  Process Promptly With Automated Verification
+                </span>
+              </div>
+              <div className="kyc-progress-widget">
+                <div id="app" class="bg-green-300">
+                  <span class="head bg-green-300"></span>
+                  <span class="arrow-tail"></span>
+                  <span class="text"> Step 1 : Upload Documents</span>
+                </div>
+                <div id="app" class="bg-blue-100">
+                  <span class="head bg-blue-100"></span>
+                  <span class="arrow-tail"></span>
+                  <span class="text bg-blue-100">Step 2 Take Selfie</span>
+                </div>
+                <div id="app" class="bg-blue-100">
+                  <span class="head bg-blue-100"></span>
+                  <span class="arrow-tail"></span>
+                  <span class="text">Step 3: Confirm Your Details</span>
+                </div>
+              </div>
+              <div className="document-section px-5 py-4 my-2">
+                <div className="doc-heading">Select Document Type</div>
+                <select
+                  class="form-select mt-2"
+                  aria-label="Default select example"
+                  style={{ width: "25%" }}
+                >
+                  <option disabled selected>
+                    Choose
+                  </option>
+                  <option value="1">Passport</option>
+                  <option value="2">VoterId</option>
+                  <option value="3">Aadhar Card</option>
+                </select>
+              </div>
+              <div className="document-images">
+                <div className="row px-5 py-2">
+                  <div className="col-lg-4 flex justify-center h-40 w-40">
+                    <div className="form-control !flex items-center justify-center">
+                      <div>
+                        <img src={docIcon} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4  flex justify-center h-40 w-40">
+                    <div className="form-control !flex items-center justify-center">
+                      <div>
+                        <img src={docIcon} />
+                      </div>
+                    </div>{" "}
+                  </div>
+                  <div className="col-lg-4  flex justify-center h-40 w-40">
+                    <div className="form-control !flex items-center justify-center">
+                      <div>
+                        <img src={docIcon} />
+                      </div>
+                    </div>{" "}
+                  </div>
+                  <div className="col-lg-4 my-4">
+                    <button type="submit" className="btn btn-primary">
+                      Proceed
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Modal>
     </div>
   );
 };
