@@ -2,12 +2,10 @@ import React, { useState } from "react";
 import { Card } from "react-bootstrap";
 import $ from "jquery";
 import Switch from "react-switch";
-import Modal from "react-modal";
 import "./dashboard.css";
 import { coins, scroll_arrow } from "../assets/coins/coins";
 import img from "../assets/coins/inr.svg";
-import kycIcon from "../assets/images/svg-icons/KYC_s2.svg";
-import docIcon from "../assets/images/svg-icons/id-card.svg";
+import KycModal from "../components/KycModal";
 
 const Dashboard = () => {
   const [autoRenew, setAutoRenew] = useState(false);
@@ -44,15 +42,13 @@ const Dashboard = () => {
   const tradeItmeStyle = {
     display: "flex",
     justifyContent: "space-around",
-    boxShadow: "0 5px 10px 0px rgba(0,0,0,0.2)",
     padding: "5px 5px",
-
     margin: "5px 0px",
   };
 
   const TradeItem = () => {
     return (
-      <div className="trade-item" style={tradeItmeStyle}>
+      <div className="trade-item shadow-md" style={tradeItmeStyle}>
         <span className="item-pair">BTC/USDT</span>
         <span className="item-price">42,983.82</span>
         <span className="item-change">2.654</span>
@@ -184,7 +180,7 @@ const Dashboard = () => {
                 <span className="v-align-middle d-inline-block ">
                   {midCoin.type === "currency"
                     ? "Complete KYC to DEPOSIT INR"
-                    : "Deposite Fund"}
+                    : "Deposit Fund"}
                 </span>
               </span>
             </button>
@@ -326,7 +322,8 @@ const Dashboard = () => {
           </Card.Body>
         </Card>
       </div>
-      <Modal
+      <KycModal showModel={showModel} setShowModel={setShowModel} />
+      {/* <Modal
         isOpen={showModel}
         onRequestClose={() => setShowModel(false)}
         style={customStyles}
@@ -419,7 +416,7 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-      </Modal>
+      </Modal> */}
     </div>
   );
 };

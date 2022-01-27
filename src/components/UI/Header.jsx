@@ -1,4 +1,4 @@
-import { Nav, Navbar, Container } from "react-bootstrap";
+import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/rego-logo-white.png";
 import dashboardIcon from "../../assets/images/svg-icons/dashboard_active.svg";
@@ -7,9 +7,29 @@ import investIcon from "../../assets/images/svg-icons/pro_active.svg";
 import exchangeIcon from "../../assets/images/svg-icons/exchange_active.svg";
 import historyIcon from "../../assets/images/svg-icons/history_active.svg";
 import refIcon from "../../assets/images/svg-icons/ref-icon-active.svg";
+import svgImages from "../../assets/images/svg-icons/svgImages";
 import "./Header.css";
 
 const Header = () => {
+  const navDropdownTitle = (
+    <span className="flex-item-center">
+      <img src={investIcon} height={23} width={23} className="nav-link-icon" />
+      <span className="nav-link-label label">Invest</span>
+    </span>
+  );
+
+  const exchangeDropdown = (
+    <span className="flex-item-center">
+      <img
+        src={exchangeIcon}
+        height={23}
+        width={23}
+        className="nav-link-icon"
+      />
+      <span className="nav-link-label label">Exchange</span>
+    </span>
+  );
+
   return (
     <>
       <Container>
@@ -52,32 +72,95 @@ const Header = () => {
                 />
                 <span className="nav-link-label label">Wallet</span>
               </NavLink>
-              <NavLink
-                to="/invest"
-                title="Invest"
-                className="nav-link  flex-item-center"
+              <NavDropdown
+                title={navDropdownTitle}
+                id="basic-nav-dropdown"
+                className="nav-dropdown-custom"
               >
-                <img
-                  src={investIcon}
-                  height={23}
-                  width={23}
-                  className="nav-link-icon"
-                />
-                <span className="nav-link-label label">Invest</span>
-              </NavLink>
-              <NavLink
-                to="/exchange"
-                title="Exchange"
-                className="nav-link  flex-item-center"
+                <NavDropdown.Item to="/fixed-deposit">
+                  <NavLink
+                    to="/fixed-deposit"
+                    title="Wallet"
+                    className="nav-link  flex-item-center"
+                  >
+                    <img
+                      src={svgImages.fd_active}
+                      height={23}
+                      width={23}
+                      className="nav-link-icon"
+                    />
+                    <span className="nav-link-label label">Fixed Deposit</span>
+                  </NavLink>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <NavLink
+                    to="/aip"
+                    title="AIP"
+                    className="nav-link  flex-item-center"
+                  >
+                    <img
+                      src={svgImages.aip_active}
+                      height={23}
+                      width={23}
+                      className="nav-link-icon"
+                    />
+                    <span className="nav-link-label label">AIP</span>
+                  </NavLink>
+                </NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown
+                title={exchangeDropdown}
+                id="basic-nav-dropdown"
+                className="nav-dropdown-custom"
               >
-                <img
-                  src={exchangeIcon}
-                  height={23}
-                  width={23}
-                  className="nav-link-icon"
-                />
-                <span className="nav-link-label label">Exchange</span>
-              </NavLink>
+                <NavDropdown.Item to="/fixed-deposit">
+                  <NavLink
+                    to="/buyCrypto"
+                    title="Wallet"
+                    className="nav-link  flex-item-center"
+                  >
+                    <img
+                      src={svgImages.instantBuy}
+                      height={23}
+                      width={23}
+                      className="nav-link-icon"
+                    />
+                    <span className="nav-link-label label">
+                      Instant Buy & Sell
+                    </span>
+                  </NavLink>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <NavLink
+                    to="/aip"
+                    title="AIP"
+                    className="nav-link  flex-item-center"
+                  >
+                    <img
+                      src={svgImages.instantSwap}
+                      height={23}
+                      width={23}
+                      className="nav-link-icon"
+                    />
+                    <span className="nav-link-label label">Instant Swap</span>
+                  </NavLink>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <NavLink
+                    to="/aip"
+                    title="AIP"
+                    className="nav-link  flex-item-center"
+                  >
+                    <img
+                      src={svgImages.proTrading}
+                      height={23}
+                      width={23}
+                      className="nav-link-icon"
+                    />
+                    <span className="nav-link-label label">Pro Trading</span>
+                  </NavLink>
+                </NavDropdown.Item>
+              </NavDropdown>
               <NavLink
                 to="/history"
                 title="History"

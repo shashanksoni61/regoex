@@ -1,7 +1,8 @@
 .label {
   color: "black";
 }
-.flex-item-center {
+.flex-item-center,
+#basic-nav-dropdown {
   display: flex !important;
   align-items: center !important;
 }

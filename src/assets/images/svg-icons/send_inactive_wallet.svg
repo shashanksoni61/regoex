@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="86" height="55.677" viewBox="0 0 86 55.677">
+  <g id="Group_4922" data-name="Group 4922" transform="translate(-1128.751 -421.3)">
+    <rect id="Rectangle_1400" data-name="Rectangle 1400" width="86" height="55.677" transform="translate(1128.751 421.3)" fill="none"/>
+    <g id="Group_4921" data-name="Group 4921" transform="translate(-10.214 -18.437)" opacity="0.38">
+      <g id="Ellipse_7365" data-name="Ellipse 7365" transform="translate(1171.289 441.737)" fill="none" stroke="#1a488e" stroke-width="3">
+        <circle cx="25.838" cy="25.838" r="25.838" stroke="none"/>
+        <circle cx="25.838" cy="25.838" r="24.338" fill="none"/>
+      </g>
+      <g id="Group_4920" data-name="Group 4920" transform="translate(1140.965 450.955)">
+        <line id="Line_94" data-name="Line 94" x2="13.076" transform="translate(2.432 0)" fill="none" stroke="#1a488e" stroke-linecap="round" stroke-width="3"/>
+        <line id="Line_96" data-name="Line 96" x2="6.538" transform="translate(19.53 0)" fill="none" stroke="#1a488e" stroke-linecap="round" stroke-width="3"/>
+        <g id="Group_4917" data-name="Group 4917" transform="translate(5.688 11.051)">
+          <line id="Line_97" data-name="Line 97" x1="7.796" transform="translate(10.153 0)" fill="none" stroke="#1a488e" stroke-linecap="round" stroke-width="3"/>
+          <line id="Line_98" data-name="Line 98" x1="4.965" fill="none" stroke="#1a488e" stroke-linecap="round" stroke-width="3"/>
+        </g>
+        <g id="Group_4919" data-name="Group 4919" transform="translate(8.12 33.151)">
+          <line id="Line_97-2" data-name="Line 97" x1="8.223" transform="translate(9.726 0)" fill="none" stroke="#1a488e" stroke-linecap="round" stroke-width="3"/>
+          <line id="Line_98-2" data-name="Line 98" x1="4.965" fill="none" stroke="#1a488e" stroke-linecap="round" stroke-width="3"/>
+        </g>
+        <g id="Group_4918" data-name="Group 4918" transform="translate(0 22.101)">
+          <line id="Line_97-3" data-name="Line 97" x2="13.076" fill="none" stroke="#1a488e" stroke-linecap="round" stroke-width="3"/>
+          <line id="Line_98-3" data-name="Line 98" x2="6.538" transform="translate(17.099)" fill="none" stroke="#1a488e" stroke-linecap="round" stroke-width="3"/>
+        </g>
+      </g>
+      <g id="Icon_feather-dollar-sign" data-name="Icon feather-dollar-sign" transform="translate(1186.98 449.439)">
+        <path id="Path_27214" data-name="Path 27214" d="M18,1.5V37.881" transform="translate(-8.004 -1.5)" fill="none" stroke="#1a488e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Path_27215" data-name="Path 27215" d="M27.325,7.5H14.831a5.764,5.764,0,1,0,0,11.527h8.33a5.764,5.764,0,1,1,0,11.527H9" transform="translate(-9 -0.836)" fill="none" stroke="#1a488e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
